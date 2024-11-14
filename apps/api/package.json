@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.ts",
   "_moduleAliases": {
-    "@": "src"
+    "@controllers": "src/controllers"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development ts-node-dev -r tsconfig-paths/register src/index.ts",
