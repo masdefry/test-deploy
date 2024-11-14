@@ -10,7 +10,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@api/*": ["apps/api/*"]
+      "@controllers/*": ["apps/api/src/controllers/*"],
     }
   },
   // "include": ["src/**/*"],
